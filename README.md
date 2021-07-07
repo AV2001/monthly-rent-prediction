@@ -24,9 +24,10 @@ Do not even bother paying attention to the Procfile cause it's ONLY for Heroku d
 
 ## Cloning
 Want to get the copy of the files used in this project onto your own device?  
-Simplt clone it!  
+Simply clone it!  
 
-As far as the Python libraries/modules are concerned, I have shared the requirements.txt which you can use to install the same versions.    
+As far as the Python libraries/modules are concerned, I have shared the requirements.txt which you can use to install the same versions used in this project.
+  
 To download all the libs/mods in one go:  
 1. cd to the directory where requirements.txt is located
 2. run the command --> pip install -r requirements.txt
