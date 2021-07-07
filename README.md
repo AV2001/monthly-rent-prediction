@@ -8,5 +8,15 @@ To keep things simple, the user will pass several values (number of bedrooms, ba
 
 ## Demo
 In case if you would like to get an idea of how the web application actually works, it has been deployed to Heroku.  
-The URL has been mentioned below, so feel free to take a look at it!
-👉 https://scaling-spork.herokuapp.com/
+The URL is active, so feel free to take a look at it! 👉 https://scaling-spork.herokuapp.com/  
+  
+If the website is taking too long to load, it's one of two possible reasons.  
+1. The application might be too heavy.
+2. Heroku is probably slow, since I'm using the free version.
+
+## Technologies Used
+* Python
+* Flask
+* HTML & CSS
+  
+As far as the Python libraries/modules are concerned, I have shared the requirements.txt file that contains all the imported libraries and their respective versions.
