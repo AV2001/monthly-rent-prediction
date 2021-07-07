@@ -31,3 +31,5 @@ As far as the Python libraries/modules are concerned, I have shared the requirem
 To download all the libs/mods in one go:  
 1. cd to the directory where requirements.txt is located
 2. run the command --> pip install -r requirements.txt
+
+main.py is the file that must be run on your machine to fire up the local server.
