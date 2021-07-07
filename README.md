@@ -5,4 +5,4 @@ This particular Machine Learning project was built using the Flask framework, an
 
 ## How Does It Work?
 
-To keep things simple, the user will pass several values (number of bedrooms, bathrooms, and the square foot of the house) to the HTML form's input boxes. These values will then be fed to the Linear Regression algorithm, that model that will be used in this project, which in turn helps predict the rent of the house.
+To keep things simple, the user will pass several values (number of bedrooms, bathrooms, and the square footage of the house) to the HTML form's input boxes. These values will then be fed to the Linear Regression algorithm, which in turn helps predict the rent of the house.
