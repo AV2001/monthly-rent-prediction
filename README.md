@@ -8,7 +8,7 @@ To keep things simple, the user will pass several values (number of bedrooms, ba
 
 ## Demo
 If you would like to a feel for how the web application actually works, it has been deployed to Heroku.  
-The URL is active, so feel free to take a look at it! 👉 https://scaling-spork.herokuapp.com/  
+The URL is active, so feel free to take a look at it! 👉 https://monthly-rent-prediction.herokuapp.com/ 
   
 If the website is taking too long to load, it's one of two possible reasons.  
 1. The application might be too heavy.
@@ -23,7 +23,7 @@ If the website is taking too long to load, it's one of two possible reasons.
 Want to get the copy of the files used in this project onto your own device?  
 Simplt clone it!  
 
-As far as the Python libraries/modules are concerned, I have shared the requirements.txt which you can use to install the same versions.  
+As far as the Python libraries/modules are concerned, I have shared the requirements.txt which you can use to install the same versions.    
 To download all the libs/mods in one go:  
 1. cd to the directory where requirements.txt is located
 2. run the command --> pip install -r requirements.txt
