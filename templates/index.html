@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Home</title>
+{% endblock %}
+    <div class="body-content">
+        <h3>Manhattan Monthly Rent Prediction</h3>
+        <h1>Is Your Landlord Charging You Fairly?</h1>
+        <form action="predict">
+            <input type="submit" value="Find Out Here!">
+        </form>
+    </div>
+{% endblock %}

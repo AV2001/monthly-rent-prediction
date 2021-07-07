@@ -1,0 +1,60 @@
+body {
+    background: url("black_bg.jpg") fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.body-content {
+    margin-top: 40px;
+    color: white;
+    font-family: Dosis;
+}
+
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 50px;
+}
+
+
+h3 {
+    font-size: 28px;
+    color: white;
+}
+
+
+p {
+    font-size: 20px;
+}
+
+
+.body-content input[type="number"] {
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    text-align: center;
+    width: 150px;
+}
+
+
+.button-style input[type="submit"] {
+    margin-top: 50px;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background:white;
+    font-size: 18px;
+    font-family: Dosis;
+}
+
+
+.button-style input[type="submit"]:hover {
+    cursor: pointer;
+    background: #D8D3D2;
+}
+
+
+.error-message h3 {
+    color: white;
+}

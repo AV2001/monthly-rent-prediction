@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='predict.css') }}">
+    <title>Predict</title>
+</head>
+    <div class="body-content">
+        <h1>Fill Up The Form To Predict Your Monthly Rent</h1>
+        <form action="#" method="post">
+            <p>Bedrooms</p>
+            <input type="number" min="1" max="10" name="bedrooms_input" required="required">
+
+            <p>Bathrooms</p>
+            <input type="number" min="1" max="10" name="bathrooms_input" required="required">
+
+            <p>Size (in sqft)</p>
+            <input type="number" min="250" max="5000" name="size_sqft_input" required="required">
+
+            <div class="button-style">
+                <input type="submit" value="Predict Rent">
+            </div>
+
+        </form>
+
+        <div>
+            <h3>{{predicted_rent}}</h3>
+        </div>
+        <div class="error-message">
+            <h3>{{error_message}}</h3>
+        </div>
+    </div>
+{% endblock %}

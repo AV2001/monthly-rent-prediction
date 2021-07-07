@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+ul {
+    padding: 20px 0 20px 0;
+}
+
+ul li {
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Dosis;
+    font-size: 18px;
+    color: black;
+    margin: 0 20px 0 20px;
+    padding: 16px 24px;
+    background: white;
+    border-radius: 10px;
+}
+
+ul li a:hover {
+    cursor: pointer;
+    background: #D8D3D2;
+}

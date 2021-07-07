@@ -1,0 +1,40 @@
+body {
+    background: url("manhattan.jpg") fixed;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.body-content {
+    margin-top: 60px;
+    font-family: Dosis;
+}
+
+
+h1 {
+    font-size: 48px;
+    color: white;
+}
+
+
+h3 {
+    font-size: 28px;
+    color: white;
+}
+
+
+form input[type="submit"] {
+    margin-top: 15px;
+    border: none;
+    padding: 16px 24px;
+    border-radius: 10px;
+    background:white;
+    font-size: 18px;
+    font-family: Dosis;
+}
+
+
+form input[type="submit"]:hover {
+    cursor: pointer;
+    background: #D8D3D2;
+}
