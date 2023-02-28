@@ -19,9 +19,6 @@ If the website is taking too long to load, it's one of two possible reasons.
 1. The application might be too heavy.
 2. Since I'm using the free version of Heroku, it's probably slow.
 
-## Procfile
-Do not even bother paying attention to the Procfile cause it's ONLY for Heroku deployment purposes.
-
 ## Cloning
 Want to get the copy of the files used in this project onto your own device?  
 Simply clone it or download the Zip folder!  
