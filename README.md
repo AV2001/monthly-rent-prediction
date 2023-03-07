@@ -1,7 +1,7 @@
 # Monthly Rent Prediction (Using Linear Regression)
 
 ## Project Overview
-This particular Machine Learning project was built using the Flask framework, and the purpose of the ML model that runs behind the scenes, is to predict the monthly rent in the borough of Manhattan, located in the city that never sleeps - New York.
+This particular Machine Learning project was built using the Flask framework, and the purpose of the ML model that runs behind the scenes, is to predict the monthly rent in the borough of Manhattan.
 
 ## Technologies Used
 * Python
@@ -18,9 +18,6 @@ The URL is active, so feel free to take a look at it! 👉 https://monthly-rent-
 If the website is taking too long to load, it's one of two possible reasons.  
 1. The application might be too heavy.
 2. Since I'm using the free version of Heroku, it's probably slow.
-
-## Procfile
-Do not even bother paying attention to the Procfile cause it's ONLY for Heroku deployment purposes.
 
 ## Cloning
 Want to get the copy of the files used in this project onto your own device?  
